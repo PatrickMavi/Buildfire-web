@@ -17,6 +17,7 @@
     overflow: hidden;
     padding-right: 70%;
     box-sizing: border-box;
+    
 }
 
 .row{
@@ -30,6 +31,8 @@
     display: flex;
      align-items: center;
      justify-content: space-between;
+     margin-right: 70px;
+     margin-top: 50px;
 }
 
  img{
@@ -73,13 +76,15 @@
  .sin-btn{
    display: inline-block;
    text-decoration: none;
-   color: #fff;
-   border: 2px solid transparent;
-   background-image: linear-gradient(#e8ecf9b5,rgba(145, 141, 141, 0.032)),radial-gradient(circle at top left,#f2edf2ed,#c4c8c9);
+   background-color: transparent;
+   border: 2px solid white;
+   color: white;
    border-radius: 20px;
-   background-clip: content-box,border-box;
-   background-origin: border-box;
+   font-size: 16px;
+   background-clip:content-box,border-box ;
+   background-origin:border-box ;
    cursor: pointer;
+   transition: background-color 0.3,;
    
  }
  .sin-btn:hover{
@@ -108,6 +113,7 @@
     color: white;
     font-size: 100px;
     font-weight: bold;
+    
  }
 
   p{
@@ -138,35 +144,28 @@
     background: #1d1f202f;
     color: white;
 }
-#about .card{
-    border-radius: 10px;
-}
 
-#about .card img{
-    border-radius: 10px;
-}
+.hero{
+    width: 100%;
+    overflow: hidden;
 
-.hero-img {
-    width: 50%;
+}
+.image{
+    
     float: right;
-    margin-inline: 250px;
-    border-radius: 10px;
-    display: inline;
+    margin-top: -20px;
+    margin-right:200px;
+    cursor: pointer;
+    width: 300px;
+    height:300px;
 
 }
-.hero-img img{
-    width: 60%;
-    margin-top: -20px;
-    margin-right: -70px;
-    padding-left: 30px;
-    border-radius: 10px;
-    background-position:center ;
-}
+
 
 
 
 @media  screen and (max-width: 982px) {
-    .hero-img{
+    .hero{
         font-size: 8px ;
   }
     
@@ -174,11 +173,11 @@
 }
 
 @media  screen and (max-width: 765px) {
-    .hero-img{
+    .hero{
         font-size: 15px ;
 
     }
-    .hero-img{
+    .hero{
         height: 120vh;
     }
 
