@@ -3,10 +3,15 @@
 
     margin: 0;
     padding: 0;
-    box-sizing: content-box;
+    box-sizing: border-box;
     font-family: "Roboto", sans-serif;
 }
-
+ #body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+ }
 /* home section start */
 .container{
     width:100%;
@@ -105,6 +110,8 @@
  }
  .col{
     flex-basis:50%;
+    flex: 1;
+    padding: 20px;
  }
  
  h3{
@@ -161,7 +168,29 @@
 
 }
 
+#footer {
 
+    width: 100%;
+    position: relative;
+    background: rgba(255, 255, 255, 0.977);
+    font-size: 30px; 
+    min-height: 120px;
+    margin-right: -20px;
+    color: black;
+    cursor: pointer;
+
+
+
+}
+
+#footer .social-links i{
+
+    padding: 30px;
+    
+   
+    
+    
+}
 
 
 @media  screen and (max-width: 982px) {
