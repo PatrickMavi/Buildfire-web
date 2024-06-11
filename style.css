@@ -14,7 +14,7 @@
     background: #c4c8c9;
     
  }
- 
+
 /* home section start */
 .container{
     width:100%;
@@ -27,9 +27,9 @@
     box-sizing: border-box;
     
 }
+
  .home{
    flex:2;
-   background-color: #c4c8c9;
 
  }
 
@@ -128,7 +128,7 @@
  h3{
     padding-top: 50px;
     margin-left:200px;
-    color: white;
+    color:white;
     font-size: 100px;
     font-weight: bold;
     
@@ -198,6 +198,7 @@ footer {
 
 
 }
+
  footer .col{
 
     display: flex;
@@ -227,14 +228,71 @@ footer {
 
 /* second page start */
 
-.second-cards{
+
+
+#top-cards .container1{
 
    width: 100%;
-   height: 60vh;
-   background:#f7f5f2;
+   height: 20vh;
+   background: white;
+}
+ #top-cards .content{
+   margin-top: 30px;
+   background-color:white;
+
+ }
+
+ #top-cards  p{
+     
+    padding-top: 50px;
+    margin-left:300px;
+    color:black;
+    font-size: 20px;
+    font-weight: lighter;
+
+     
+}
+
+
+#top-cards .container2{
+   display: flex;
+   justify-content: space-around;
+   width: 100%;
+   height: 100vh;
+   margin-top: 50px;
+   margin: 20px;
+
+}
+
+.box{
+   max-width: 100%;
+   text-align: center;
+   padding: 20px;
+   display: block;
+   margin: 0 auto 10px;
+   padding-top: 50px;
+}
+
+.box img{
+   max-width: 100%;
+   height: 15% ;
+   margin: 0 auto 10px;
+   margin-top: 10px;
+   
+
+}
+
+.box h6{
+   margin: 20px 0;
+   font-size: 1.2em;
+   color: black;
+
+}
+  #top-cards .box p{
+   margin: 20px 5px;
+   font-size: 10px;
+   color: black;
   }
-
-
-
-
 /* second page end */
+
+
