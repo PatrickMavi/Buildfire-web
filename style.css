@@ -233,7 +233,7 @@ footer {
 #top-cards .container1{
 
    width: 100%;
-   height: 20vh;
+   height: 55vh;
    background: white;
 }
  #top-cards .content{
@@ -253,12 +253,20 @@ footer {
      
 }
 
+    #top-cards .middle-line{
+       
+      display: inline-block;
+      margin-left: 27%;
+      transform: translateX(-50%);
+   }
+
 
 #top-cards .container2{
    display: flex;
+   flex:1;
    justify-content: space-around;
    width: 100%;
-   height: 100vh;
+   height: 80vh;
    margin-top: 50px;
    margin: 20px;
 
@@ -283,16 +291,124 @@ footer {
 }
 
 .box h6{
-   margin: 20px 0;
+     margin: 20px 0px;
    font-size: 1.2em;
    color: black;
 
 }
   #top-cards .box p{
-   margin: 20px 5px;
+    margin: 1px;
+   margin-top: -40px;
    font-size: 10px;
    color: black;
   }
+
+  .highlight{
+   color: rgba(49, 170, 235, 0.769);
+  }
 /* second page end */
+
+
+
+/* second footer start*/
+
+.footer2 {
+
+   position: relative;
+   
+   background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(Imagines/footer2.png);
+   padding: 10px;
+   margin-top: 400px;
+   background-size:cover ;
+   background-position: center;
+   background-repeat: no-repeat;
+   text-align: center;
+   
+}
+
+.overlap-image {
+
+   position: center;
+   display: flex;
+   margin-left: 580px;
+   left: 50%;
+   transform: translateX(-50%);
+   width: 700px;
+   height: auto;
+   bottom: 100%;
+   z-index: 2;
+
+
+}
+
+.footer-content{
+
+   position: relative;
+   z-index: 1;
+   margin-top: -350px;
+}
+
+
+.button-container{
+   display: flex;
+   gap: 10px;
+   margin-left: 400px;
+   margin-bottom: 50px;
+}
+   
+  #button-1 , #button-2{
+
+   padding: 10px 20px;
+   border: none;
+   cursor:pointer;
+   font-size:16px;
+
+  }
+
+#button-1 {
+
+   width: 140px;
+   height: 36px;
+   text-decoration: ;
+   background-color: transparent;
+   border: 2px solid white;
+   color: white;
+   border-radius: 20px;
+   margin-top: 20px;
+   font-size: 12px;
+   white-space: nowrap;
+   background-clip:content-box,border-box ;
+   background-origin:border-box ;
+   cursor: pointer;
+   transition: background-color 0.3,;
+
+}
+
+#button-2{
+   width:130px;
+   height: 33px;
+   font-size: 12px;
+   color: #fff;
+   margin-top:20px;
+   background:rgba(62, 143, 230, 0.97);
+   border-radius:20px;
+   font-weight:bold;
+   border:none;
+   transition: 0.5s ease;
+   cursor:pointer;
+
+}
+
+#button-1:hover{
+   background: #1d1f202f;
+   color: white;
+}
+
+#button-2:hover{
+   background: #1d1f202f;
+   color: white;
+}
+
+/* second footer end*/
 
 
